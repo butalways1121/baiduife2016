@@ -1,0 +1,81 @@
+a1{
+			font-size: 30px;
+		}
+		a2{
+			font-size: 20px;
+			color: grey;
+		}
+		a3{
+			font-size: 15px;
+			color: grey;
+		}
+	    a4{
+			text-indent: 3em;
+		}
+		a:link{
+			 color:blue;
+		}
+		a6{
+			font-weight: bold;
+		}
+		.tupian1 img{
+			width: 300px;
+			height: 150px;
+		}
+		.div-a{
+			margin-top:1em;
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+		}
+		li1{
+			float:left;
+			width:100px;
+			height: 10px;
+		}
+		.tupian2 img{
+			width: 200px;
+			height: 100px;
+		}
+		.div-b{
+			width: 300px;
+			height: 150px;
+			border: 1px solid black;
+			text-align: center;
+			margin-left: 2em;
+		}
+		a7{
+			font-weight: 15px;
+			text-align: center;
+		}
+		ul.none{
+			list-style-type: none;
+		}
+		ol.decimal{
+			list-style-type: decimal;
+		}
+		table, th, td{
+              border: 1px solid #cbcbcb;
+              border-collapse:collapse;
+         }
+
+		table{	
+	       width: 100%;
+	      }
+
+	    th{
+	       background-color:black;
+	      }
+	     tfoot{
+	     	background-color:#cbcbcb;
+		}
+		a8{
+			color:white;
+		}
+		#article header {
+          border-left: 4px solid darkgray;
+          padding: 10px 10px;
+          margin-left: 1.5em;
+         }
+        .div-c{
+        	text-align:right;
+        }

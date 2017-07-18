@@ -1,0 +1,30 @@
+	/*要实现水平垂直居中,先把top/bottom/left/right都设置成0,然后再设置margin:auto*/
+		.container{
+        width:400px;
+        height: 200px;
+        background-color: #ccc;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:auto;
+        overflow:hidden;
+    }
+    /*第一种方式实现圆角*/
+    .left-circle{
+        background-color: #fc0;
+        width: 50px;
+        height: 50px;
+        border-bottom-right-radius:50px;
+    }
+    /*第二种方式实现圆角,其实是画一个圆，然后遮住3/4，得要在container中加入overflow:hidden了*/
+    .right-circle{
+        background-color: #fc0;
+        width: 100px;
+        height: 100px;
+        border-radius:50px;
+        position: absolute;
+        bottom:-50px;
+        right:-50px;
+    }

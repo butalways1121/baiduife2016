@@ -1,0 +1,116 @@
+header{
+			width: 100%;
+			background-color: #D2E9FF;
+			text-align: right;
+			height: 40px;
+		}
+		ul li{
+			display: inline;
+			padding-left: 5px;
+		}
+		.one{
+			background-color: #E0E0E0;
+			padding: 20px;
+			width: 100%;
+			height: 100%;
+		}
+		.two{
+			padding: 20px;
+			background-color: #FFFFFF;
+			width:60%;
+			height: auto; 
+		}
+		a1{
+			color: #000000;
+			font-size: 25px;
+		}
+		a2{
+			color: #6C6C6C;
+			font-size: 20px;
+		}
+		a3{
+			color: #BEBEBE;
+			font-size: 15px;
+		}
+		p{
+			text-indent: 2em;
+		}
+		.two img{
+			width: 400px;
+			height: 200px;
+		}
+		.three{
+			background-color: #FFFFFF;
+			width: 510px;
+			height: auto;
+			margin-top: -630px;
+			margin-left: 960px;
+			padding: 20px;
+		}
+		#article header1 {
+          border-left: 4px solid darkgray;
+          padding: 10px 10px;
+          margin-left: 1.5em;
+          margin-top: 10em;
+         }
+         .four{
+         	padding: 20px;
+			background-color: #FFFFFF;
+			width:60%;
+			height: auto;
+			margin-top: 210px; 
+         }
+         .four img{
+         	width: 400px;
+			height: 200px;
+         }
+         ol li{
+         	list-style-type: none;
+         }
+         .five{
+         	padding: 20px;
+			background-color: #FFFFFF;
+			width:60%;
+			height: 550px;
+			margin-top: 20px; 
+         }
+        .six{
+			width: 120px;
+			height: auto;
+			background-color: #F1E1FF;
+			padding: 10px;
+			float:left;
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+		.six img{
+			width: 100px;
+			height: 100px;
+		}
+		.seven{
+			padding: 20px;
+			background-color: #FFFFFF;
+			width:60%;
+			height: auto; 
+			margin-top: 20px;
+		}
+		ol.decimal{
+			list-style-type: decimal;
+		}
+		table, th, td{
+              border: 1px solid #cbcbcb;
+              border-collapse:collapse;
+         }
+
+	    th{
+	       background-color:black;
+	      }
+	    table{
+	    	width: 600px;
+	      }
+	     tfoot{
+	     	background-color:#cbcbcb;
+		}
+		a4{
+			color: #FFFFFF;
+		}

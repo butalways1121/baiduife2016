@@ -1,0 +1,528 @@
+body{
+			background-color: #F0F0F0;
+		}
+		.main{
+			width: 1280px;
+			height: auto;
+			position: center;
+			background-color: #ffffff;
+		}
+		header{
+			width: 1280px;
+			height: 60px;
+		}
+		.main-left{
+			width: 100px;
+			height: 40px;
+			margin-left: 30px;
+		}
+		.main-left p{
+			float: right; 
+			font-weight: bold;
+		}
+		.main-right{
+			width: 600px;
+			height: 50px;
+			float: right;
+			margin-right: 0px;
+			margin-top: -60px;
+		}
+		.main-right li{
+			display: inline;
+			padding-right: 30px;
+		}
+		.main-right a{
+			text-decoration: none;
+			font-size: 15px;
+			display: inline-block;  /*应用此特性的元素呈现为内联对象，周围元素保持在同一行，但可以设置宽度和高度地块元素的属性*/
+			color: #999;
+			line-height: 40px;
+			transition: all ease-in-out 0.4s; /* transition过渡属性,all：表示针对所有元素,ease-in-out 缓慢开始，缓慢结束（先加速后减速）*/
+		}
+		.main-right ul li a:hover:not(.login){     /*:hover 选择器用于选择鼠标指针浮动在上面的元素*/
+			border-bottom: 3px #E74F4D solid;
+			color: #E74F4D;
+		}
+		.login span{
+			color: #E74F4D;
+		}
+		.section1{
+			background-image: url(./image/9.jpg);
+			width: 1280px;
+			height: 600px;
+		}
+		.section1-text{
+			padding-top: 220px;
+			padding-left: 120px;
+		}
+		.section1-text span{
+			font-size: 40px;
+			color: #FFFFFF;
+			letter-spacing: 8px;
+		}
+		.section1-text p{
+			font-size: 25px;
+			font-family: 微软雅黑;
+			color: #ffffff;
+			line-height: 10px;
+		}
+		.section1-button button{
+			width: 300px;
+			text-align: center;
+			margin-top: 25px;
+			margin-left: 120px;
+			background-color: #E53C3C;
+			font-size: 25px;
+			letter-spacing: 5px;
+			color: #ffffff;
+			display: inline;
+			line-height: 60px;
+			border:none;/*去掉button的阴影*/
+		}
+		.section2{
+			width: 1280px;
+			height: 200px;
+			background-color: #ffffff;
+		}
+		.section2-1{
+			width: 320px;
+			height: 160px;
+			line-height: 20px;
+			text-align: center;
+			float: left;/*可以让多个div并排显示*/
+		}
+		.section2-1img{
+			margin-top: 40px;
+		}
+		.section2-1text{
+			width: 320px;
+			height: 30px; 
+			text-align: center;
+			border-right: 2px solid #000000;
+		}
+		.section2-1text{
+			width: 320px;
+			height: 50px; 
+			text-align: center;
+		}
+		.section3{
+			width: 1280px;
+			height: 300px;
+			background-color:#F0F0F0;
+			text-align: center;
+		}
+		.section3 img{
+			margin-top:80px; 
+		}
+		.section3-text{
+			margin-top: 20px;
+		}
+		.section3-text span{
+			font-size: 30px;
+			color:#9d9d9d;
+			letter-spacing: 10px;
+		}
+		.section4{
+			width: 1280px;
+			height: 300px;
+			background-image: url(./image/15.jpg);
+			padding: 40px 0px 0px 0px;
+		}
+		.section4-text{
+			text-align: center;
+			color: #ffffff;
+		}
+		.section4-text p1{
+			font-size: 25px;
+		}
+		.section4-text p2{
+			font-size: 15px;
+		}
+		.section4-text span{
+			color: #ffffff;
+			width: 30px;
+			height: 20px;
+			display: inline-block;
+			margin-top: 10px;
+			border-top: 2px solid #fff;
+			transition: width 0.4s ease-in-out;
+
+		}
+		.section4-text span:hover{
+			width: 300px;
+		}
+		.form{
+			margin-top: 35px;
+			text-align: center;
+		}
+		.form select{
+			width: 240px;
+			height: 36px;
+			/*border:0;
+			border-radius: 0;*/
+			margin-right: 25px;
+			border: 1px solid  #ffd2d2;
+			-moz-appearance: none;/*所有主流浏览器都不支持 appearance 属性,Firefox 支持替代的 -moz-appearance 属性,appearance 属性允许您使元素看上去像标准的用户界面元素*/
+			 background: #fff url(./image/16.png) no-repeat scroll right 10px center;
+			 /*padding-right: 20px;
+			 padding-left: 15px;*/
+			 color: #aba6a5;
+		}
+		.sub-btn{
+			width: 240px;
+			height: 36px;
+			border:none;
+			background-color: #bf4f49;
+			letter-spacing: 25px;
+			color: #fff;
+			cursor: pointer;
+			padding-left: 25px;
+		}
+		.section5{
+			width: 1280px;
+			height: 600px;
+			background-color: #F0F0F0;
+		}
+		.section5-pict{
+			padding: 100px 40px;
+			float: left;
+			margin-left: 20px;
+			text-align: center;
+		}
+		.section5-text{
+			line-height: 10px;
+		}
+		.section5-text p{
+			font-size: 16px;
+		}
+		.section5-text1 p{
+			font-size: 14px;
+			color: #adadad;
+		}
+		.section5-text pp{
+			font-size: 14px;
+			color: #adadad;
+		}
+		.section5-text1 span{
+			letter-spacing: 8px;
+			font-size: 20px;
+		}
+		.section6{
+			width: 1280px;
+			height: 566px;
+		}
+		.section6-left{
+			width: 851px;
+			height: 566px;
+			background-image: url(./image/21.jpg);
+		}
+		.section6-left-letter{
+			width: 851px;
+			text-align: center;
+			color: #ffffff;
+			padding: 100px 0;
+			float: left;
+		}
+		.section6-left-letter1{
+			font-size: 50px;
+			line-height: 0px;
+		}
+		.section6-left-letter2{
+			font-size: 130px;
+			line-height: 0px;
+		}
+		.section6-left-letter3{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		.section6-left-letter4{
+			font-size: 20px;
+			line-height: 0px;
+		}
+		.section6-right{
+			width: 429px;
+			height: 566px;
+			margin-top:  -566px;
+			float: right;
+		}
+		.section6-right-letter{
+			padding: 130px 0px;
+		}
+		.section6-right-letter1{
+			font-weight: bold;
+			font-size: 20px;
+			letter-spacing: 5px;
+			text-align: center;
+		}
+		.section6-right-letter1 span{
+			color: #ce0000;
+		}
+		.section6-right-letter2{
+			text-indent: 2em;
+			margin-left: 60px;
+			margin-right: 60px;
+			color:  #bebebe;
+			line-height: 30px;
+		}
+		.section6-right-letter button{
+			width: 120px;
+			height: 30px;
+			color: #E53C3C;
+			margin-left: 140px;
+			background-color: #ffffff;
+			text-align: center;
+			font-size: 15px;
+			border: 1px solid #E53C3C;
+		}
+		.section6-right-tab{
+			width: 426px;
+			position: absolute;
+			margin-left: 100px;
+		}
+		.section6-right-tabs li{
+			display: inline-block;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border: 1px solid #bebebe;
+			cursor: pointer;
+			margin: 0 7px;
+		}
+		.section6-right-tabs .active,.section6-right-tabs li:hover{
+			background-color: #bebebe;
+		}
+		.section7{
+			width: 1280px;
+			height: 520px;
+		}
+		.section7-1{
+			width: 33%;
+			height: 520px;
+			background-color: #ff5151;
+		}
+		.section7-1-letter{
+			padding: 130px 0px;
+			color: #ffffff;
+			text-align: center;
+			font-size: 25px;
+			line-height: 20px;
+		}
+		.section7-1-letter span{
+			color: #ffffff;
+			width: 50px;
+			display: inline-block;
+			margin-top: -10px;
+			border-top: 2px solid #fff;
+			transition: width 0.2s ease-in-out;
+		}
+		.section7-1-letter span:hover{
+			width: 140px;
+		}
+		.section7-1-letter button{
+			width:150px;
+			height: 40px;
+			margin-top: 30px;
+			background-color: #ff5151;
+			border:1px solid #ffffff;
+			font-size: 20px;
+			color: #ffffff;
+		}
+		.section7-2{
+			width: 33%;
+			height: 520px;
+			background-color: #ffffff;
+			margin-left: 33%;
+			margin-top: -520px;
+		}
+		.section7-2-letter{
+			padding: 130px 0px;
+			color: #ff5151;
+			text-align: center;
+			font-size: 25px;
+			line-height: 20px;
+		}
+		.section7-2-letter span{
+			color: #ffffff;
+			width: 50px;
+			display: inline-block;
+			margin-top: -10px;
+			border-top: 2px solid #bebebe;
+			transition: width 0.2s ease-in-out;
+		}
+		.section7-2-letter span:hover{
+			width: 140px;
+		}
+		.section7-2-letter button{
+			width:150px;
+			height: 40px;
+			margin-top: 30px;
+			background-color: #ffffff;
+			border:1px solid #ff5151;
+			font-size: 20px;
+			color: #ff5151;
+		}
+		.section7-3{
+			background-image: url(./image/22.jpg);
+			width: 33.5%;
+			height: 520px;
+			margin-left: 66.5%;
+			margin-top:-520px;
+		}
+		.section8{
+			width: 1280px;
+			height: 750px;
+			background-color: #ffffff;
+			margin-top: -20px;
+		}
+		.section8-1{
+			width: 1280px;
+			height: 150px;
+		}
+		.section8-1-letter{
+			text-align: center;
+			padding: 60px;
+		}
+		.section8-1-letter .first{
+			font-size: 25px;
+			letter-spacing: 3px;
+			line-height: 5px;
+		}
+		.section8-1-letter span{
+			width: 50px;
+			display: inline-block;
+			margin-top: 0px;
+			border-top: 3px solid #ff5151;
+			transition: width 0.4s ease-in-out;
+		}
+		.section8-1-letter span:hover{
+			width: 240px;
+		}
+		.section8-1-letter .second{
+			line-height: 25px;
+			color: #bebebe;
+		}
+		.section8-2{
+			width: 1280px;
+			float: left;
+			margin-top: 120px;
+		}
+		.section8-2-left{
+			width: 30%;
+		}
+		.section8-2-left ul{
+			list-style-type: none;
+		}
+		.section8-2-left-first{
+			/*letter-spacing: 2px;*/
+		}
+		.section8-2-left-second{
+			color: #bebebe;
+			font-size: 14px;
+		}
+		.section8-2-left a{
+			float: right;
+			color: #bebebe;
+			font-size: 13px;
+			text-decoration: none;
+		}
+		.section8-2-left a:before{  /*:before 选择器在被选元素的内容前面插入内容*/
+			content: url(./image/23.png);
+			margin-right: 5px;
+		}
+		.section8-right{
+			width: 800px;
+			float: right;
+			margin-top: -300px;
+		}
+		.section8-right-list input{
+			width: 300px;
+			height: 40px;
+			float: left;
+			font-size: 15px;
+			background-color: #f0f0f0;
+			border:none;
+			text-indent: 1.5em;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.section8-right-lists input{
+			width: 620px;
+			height: 100px;
+			float: left;
+			font-size: 15px;
+			background-color: #f0f0f0;
+			border:none;
+			text-indent: 1.5em;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		.section8-right-button .button{
+			width: 620px;
+			height: 40px;
+			margin-top: 20px;
+			margin-left: 20px;
+			border:none;
+		}
+		.section9{
+			width: 1280px;
+			height: 350px;
+			background-color:#33353F; 
+			margin-top: 730px;
+		}
+		.section9-letter{
+			text-align: center;
+			padding: 70px 0px;
+			color: #ffffff;
+		}
+		.section9-letter-first{
+			font-size: 20px;
+		}
+		.section9-letter-second{
+			font-size: 15px;
+			line-height: 23px;
+		}
+		.section9-email{
+			margin-left: 350px;
+			margin-top: -60px;
+		}
+		.section9-email input{
+			width: 500px;
+			height: 30px;
+			font-size: 14px;
+			border: none;
+		}
+		.section9-email button{
+			width: 80px;
+			height: 32.55px;
+			border:none;
+			background-color: #6f7178;
+			color: #ffffff;
+			letter-spacing: 8px;
+			margin-left:-4.2px;
+		}
+		.section9-email ul{
+			margin-left: 150px;
+		}
+		.section9-email ul li{
+			display: inline-block;
+			margin-right: 25px;
+		}
+		footer{
+			width: 1280px;
+			height: 50px;
+			background-color: #242424;
+		}
+		.footer-left{
+			float: left;
+			text-indent: 5em;
+			padding: 15px 0px;
+		}
+		footer a{
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.footer-right{
+			float: right;
+			padding: 15px 0px;
+			margin-right: 20px;
+		}
